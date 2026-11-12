@@ -1,11 +1,24 @@
 package storage;
 
+import java.util.ArrayList;
+import model.Product;
+import model.Sale;
+
 public class StorageManager {
-    public void saveToFile() {
-        // will be added in Session 4
+
+    public void saveProducts(ArrayList<Product> productList) {
+        
     }
 
-    public void loadFromFile() {
-         // will be added in Session 4
+    public ArrayList<Product> loadProducts() {
+        return new ArrayList<>();
+    }
+
+    public void saveSales(ArrayList<Sale> salesList) {
+        
+    }
+
+    public ArrayList<Sale> loadSales() {
+        return new ArrayList<>();
     }
 }
