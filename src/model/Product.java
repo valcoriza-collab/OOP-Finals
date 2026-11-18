@@ -25,6 +25,6 @@ public abstract class Product {
 
     @Override
     public String toString() {
-        return id + " | " + name + " | PHP " + price + " | Stock: " + stock + " | " + getProductDetails();
+        return id + "," + name + "," + price + "," + stock;
     }
 }
